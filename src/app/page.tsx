@@ -1,3 +1,4 @@
+import Tiptap from "@/components/Tiptap";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -8,7 +9,7 @@ export default async function Home() {
 
   return (
     <main >
-     Yo
+     <Tiptap/>
     </main>
   );
 }
